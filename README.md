@@ -1,16 +1,15 @@
-Turysaz MiniDox keyboard layout
-===============================
+Turysaz qmk keyboard layouts
+============================
 
 ## Dependencies
 
 - qmk (install via pip)
-- everything qmk needs :)
 
 ## Usage
 
-- clone qmk sources
+- `qmk setup` will clone qmk sources, submodules and dependencies
 - copy json file to sources
-- replace the header eventually
+- replace some header/source files eventually
 - `qmk compile mylayout.json`
 - `qmk flash mylayout.json`
 
